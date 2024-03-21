@@ -1,7 +1,7 @@
 <template>
   <section>
     <h2 class="text-2xl pb-2">Recent Publications:</h2>
-    <hr class="pb-2">
+    <hr class="pb-2 md:mx-[-1rem]">
     <p class="space-y-3">
       <PublicationLinkComponent
         v-for="publicationLink in publicationLinks"

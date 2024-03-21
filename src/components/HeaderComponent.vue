@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky top-0 min-h-10 max-h-40 overflow-hidden shadow duration-500 bg-white"
+  <header class="sticky top-0 min-h-10 max-h-40 overflow-hidden shadow duration-300 bg-white"
     :class="scrolled ? 'h-10' : 'h-40'"
   >
     <img

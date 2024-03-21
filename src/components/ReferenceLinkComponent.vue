@@ -5,7 +5,10 @@
     class="font-light flex flex-col items-center text-center text-link hover:text-link-hover visited:text-link-visited active:text-link-clicked underline"
   >
       <img 
-      class="rounded-full w-32 h-32 object-cover"
+      class="h-32 object-cover"
+      :class="{
+        'rounded-full w-32': forceCircle
+      }"
       :src="referenceLink.image" 
       :alt="referenceLink.alt ?? referenceLink.title" 
     />
@@ -25,6 +28,11 @@ defineProps({
   referenceLink: {
     type: Object as PropType<ReferenceLink>,
     required: true
+  },
+  forceCircle: {
+    type: Boolean,
+    default: true,
+    required: false
   }
 })
 </script>

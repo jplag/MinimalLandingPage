@@ -4,7 +4,7 @@
     <main class="flex flex-col items-center px-4 flex-1 py-5">
       <ReferenceSection />
       <hr class="my-5 w-full">
-      <PublicationsSection />
+      <PublicationsSection class="md:max-w-[90%]" />
     </main>
     <footer class="shadow border-t border-gray-100 py-2">
       <p class="text-center">
