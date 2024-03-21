@@ -1,5 +1,5 @@
 <template>
-  <section class="px-4">
+  <section>
     <h2 class="text-2xl pb-2">Recent Publications:</h2>
     <hr class="pb-2">
     <p class="space-y-3">
