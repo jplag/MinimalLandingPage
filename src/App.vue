@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col">
-    <HeaderComponent class="w-full" />
+    <HeaderComponent class="w-full mt-0" />
     <main class="flex flex-col items-center px-4 flex-1 py-5">
       <ReferenceSection />
       <hr class="my-5 w-full">
