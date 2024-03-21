@@ -5,8 +5,8 @@ export default {
     extend: {
       colors: {
         'link': {
-          DEFAULT: '#0077FF',
-          hover: '#00A0E0',
+          DEFAULT: '#0055A7',
+          hover: '#0077CC',
           visited: '#551A8B',
           clicked: '#6C757D'
         }
