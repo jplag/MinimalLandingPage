@@ -16,11 +16,8 @@ import { ref } from 'vue';
 const scrolled = ref(false);
 
 window.addEventListener('scroll', () => {
-  const header = document.querySelector('header') as HTMLElement;
-  if (!scrolled.value && window.scrollY > 25) {
+  if (!scrolled.value && window.scrollY > 0) {
     scrolled.value = true;
-  } else if (scrolled.value && window.scrollY < 10) {
-    scrolled.value = false;
-  }
+  } 
 })
 </script>
