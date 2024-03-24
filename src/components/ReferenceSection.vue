@@ -17,17 +17,17 @@ import githubLogo from '@/assets/github.png'
 
 const referenceLinks: [ReferenceLink, boolean][] = [
   [{
-    url: 'https://helmholtz.software/software/jplag',
-    title: 'Helmholtz RSD',
-    image: helmholtzLogo,
-    alt: 'Helmholtz logo for link to RSD page'
-  }, true],
-  [{
     url: 'https://jplag.github.io/Demo/',
     title: 'JPlag Demo',
     image: 'https://raw.githubusercontent.com/jplag/JPlag/develop/report-viewer/src/assets/jplag-dark-transparent.png',
     alt: 'JPlag logo for link to Demo page'
   }, false],
+  [{
+    url: 'https://helmholtz.software/software/jplag',
+    title: 'Helmholtz RSD',
+    image: helmholtzLogo,
+    alt: 'Helmholtz logo for link to RSD page'
+  }, true],
   [{
     url: 'https://www.github.com/jplag/JPlag',
     title: 'Github',
