@@ -7,7 +7,7 @@
       <PublicationsSection class="md:max-w-[90%]" />
     </main>
     <footer class="shadow border-t border-gray-100 py-2">
-      <p class="text-center">
+      <p class="ml-2">
         &copy; 2024 JPlag
       </p>
     </footer>
