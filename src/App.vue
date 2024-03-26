@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col min-h-screen">
-    <HeaderComponent class="w-full mt-0" />
-    <main class="flex flex-col items-center px-4 flex-1 py-5">
+    <HeaderComponent class="w-full mt-0 md:hidden" />
+    <main class="flex flex-col items-center px-4 flex-1 py-5 md:mt-2">
       <ReferenceSection />
       <hr class="my-5 w-full">
       <PublicationsSection class="md:max-w-[90%]" />
