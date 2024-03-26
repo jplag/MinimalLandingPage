@@ -1,19 +1,22 @@
 <template>
-  <div class="w-fit">
+  <div class="w-fit max-w-32">
     <a
     :href="referenceLink.url"
-    class="font-light flex flex-col items-center text-center text-link hover:text-link-hover visited:text-link-visited active:text-link-clicked underline"
+    class="font-light h-40 flex flex-col items-center text-center text-link hover:text-link-hover visited:text-link-visited active:text-link-clicked underline"
   >
+    <div class="flex-1 flex flex-col justify-center">
       <img 
-      class="h-32 object-cover"
+      class="max-h-32 object-cover"
       :class="{
         'rounded-full w-32': forceCircle
       }"
       :src="referenceLink.image" 
       :alt="referenceLink.alt ?? referenceLink.title" 
     />
+    </div>
+      
     
-    <b >
+    <b>
       {{ referenceLink.title }}
     </b>
   </a>
