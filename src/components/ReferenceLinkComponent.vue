@@ -7,9 +7,6 @@
     <div class="flex-1 flex flex-col justify-center">
       <img 
       class="max-h-32 object-cover"
-      :class="{
-        'rounded-full w-32': forceCircle
-      }"
       :src="referenceLink.image" 
       :alt="referenceLink.alt ?? referenceLink.title" 
     />
@@ -31,11 +28,6 @@ defineProps({
   referenceLink: {
     type: Object as PropType<ReferenceLink>,
     required: true
-  },
-  forceCircle: {
-    type: Boolean,
-    default: true,
-    required: false
   }
 })
 </script>
