@@ -18,7 +18,7 @@ import PublicationLinkComponent from './PublicationLinkComponent.vue'
 
 const publicationLinks: PublicationsLink[] = [
   {
-    url: '',
+    url: 'https://publikationen.bibliothek.kit.edu/1000167858/152125267',
     title: 'Obfuscation-Resilient Software Plagiarism Detection with JPlag',
     authors: ['Timur Sağlam', 'Sebastian Hahner', 'Larissa Schmid', 'Erik Burger'],
     venue:
@@ -26,14 +26,14 @@ const publicationLinks: PublicationsLink[] = [
     year: 2024
   },
   {
-    url: '',
+    url: 'https://publikationen.bibliothek.kit.edu/1000167588/152076500',
     title: 'Detecting Automatic Software Plagiarism via Token Sequence Normalization',
     authors: ['Timur Sağlam', 'Moritz Brödel', 'Larissa Schmid', 'Sebastian Hahner'],
     venue: '2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE ’24)',
     year: 2024
   },
   {
-    url: '',
+    url: 'https://publikationen.bibliothek.kit.edu/1000167587/152076406',
     title: 'Automated Detection of AI-Obfuscated Plagiarism in Modeling Assignments',
     authors: ['Timur Sağlam', 'Sebastian Hahner', 'Larissa Schmid', 'Erik Burger'],
     venue:
@@ -41,7 +41,7 @@ const publicationLinks: PublicationsLink[] = [
     year: 2024
   },
   {
-    url: '',
+    url: 'https://doi.org/10.1109/MODELS-C59198.2023.00032',
     title: 'How Students Plagiarize Modeling Assignments',
     authors: ['Timur Sağlam', 'Larissa Schmid', 'Sebastian Hahner', 'Erik Burger'],
     venue:
@@ -49,7 +49,7 @@ const publicationLinks: PublicationsLink[] = [
     year: 2023
   },
   {
-    url: '',
+    url: 'https://doi.org/10.1145/3550356.3556508',
     title: 'Token-based plagiarism detection for metamodels',
     authors: ['Timur Sağlam', 'Sebastian Hahner', 'Jan Willem Wittler', 'Thomas Kühn'],
     venue:
