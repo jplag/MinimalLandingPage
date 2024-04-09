@@ -4,9 +4,9 @@
     <main class="flex flex-col items-center px-4 flex-1 py-5 md:mt-2">
       <ReferenceSection />
       <hr class="my-5 w-full">
-      <PublicationsSection class="md:max-w-[90%]" />
+      <PublicationsSection class="md:max-w-[90%] md:min-w-[960px]" />
       <hr class="my-5 w-full">
-      <SurveySection />
+      <SurveySection class="md:max-w-[90%] md:min-w-[960px]" />
     </main>
     <footer class="shadow border-t border-gray-100 py-2 relative bottom-0">
       <p class="ml-2">
