@@ -12,7 +12,6 @@
     />
     </div>
       
-    
     <b>
       {{ referenceLink.title }}
     </b>

@@ -5,6 +5,8 @@
       <ReferenceSection />
       <hr class="my-5 w-full">
       <PublicationsSection class="md:max-w-[90%]" />
+      <hr class="my-5 w-full">
+      <SurveySection />
     </main>
     <footer class="shadow border-t border-gray-100 py-2 relative bottom-0">
       <p class="ml-2">
@@ -18,4 +20,5 @@
 import PublicationsSection from './components/PublicationsSection.vue';
 import ReferenceSection from './components/ReferenceSection.vue';
 import HeaderComponent from './components/HeaderComponent.vue';
+import SurveySection from './components/SurveySection.vue';
 </script>
