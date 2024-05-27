@@ -10,6 +10,7 @@
     <button class="border rounded-sm border-black px-2 mt-1">
       PDF
     </button>
+    <i>{{ publicationLink.doi }}</i>
   </a>
   </div>
   

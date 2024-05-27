@@ -4,4 +4,5 @@ export interface PublicationsLink {
   title: string
   venue: string
   year: number
+  doi: string
 }
