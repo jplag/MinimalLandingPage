@@ -7,7 +7,7 @@
     <b>{{ publicationLink.title }}</b> <br />
     {{ publicationLink.authors.join(', ') }} <br /> 
     <i>{{ publicationLink.venue }}</i>, {{ publicationLink.year }} <br />
-    <button class="border rounded-sm border-black px-2 mt-1">
+    <button class="border rounded-sm border-black px-2 mt-1 mr-2">
       PDF
     </button>
     <i>{{ publicationLink.doi }}</i>
