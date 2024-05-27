@@ -18,22 +18,22 @@ import PublicationLinkComponent from './PublicationLinkComponent.vue'
 
 const publicationLinks: PublicationsLink[] = [
   {
-    url: 'https://publikationen.bibliothek.kit.edu/1000167858/152125267',
+    url: 'https://doi.org/10.1145/3639478.3643074',
     title: 'Obfuscation-Resilient Software Plagiarism Detection with JPlag',
     authors: ['Timur Sağlam', 'Sebastian Hahner', 'Larissa Schmid', 'Erik Burger'],
     venue:
-      '2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion ’24)',
+      '2024 IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-C ’24)',
     year: 2024
   },
   {
-    url: 'https://publikationen.bibliothek.kit.edu/1000167588/152076500',
+    url: 'https://doi.org/10.1145/3597503.3639192',
     title: 'Detecting Automatic Software Plagiarism via Token Sequence Normalization',
     authors: ['Timur Sağlam', 'Moritz Brödel', 'Larissa Schmid', 'Sebastian Hahner'],
     venue: '2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE ’24)',
     year: 2024
   },
   {
-    url: 'https://publikationen.bibliothek.kit.edu/1000167587/152076406',
+    url: 'https://doi.org/10.1145/3639474.3640084',
     title: 'Automated Detection of AI-Obfuscated Plagiarism in Modeling Assignments',
     authors: ['Timur Sağlam', 'Sebastian Hahner', 'Larissa Schmid', 'Erik Burger'],
     venue:
