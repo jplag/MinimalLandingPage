@@ -18,6 +18,24 @@ import PublicationLinkComponent from './PublicationLinkComponent.vue'
 
 const publicationLinks: PublicationsLink[] = [
   {
+    url: 'https://doi.org/10.5445/IR/1000179018',
+    title: 'Mitigating Automated Obfuscation Attacks on Software Plagiarism Detection Systems',
+    authors: ['Timur Sağlam'],
+    venue:
+      'PhD dissertation, Karlsruhe Institute of Technology (KIT)',
+    year: 2025,
+    doi: '10.5445/IR/1000179018'
+  },
+  {
+    url: 'https://doi.org/10.5445/IR/1000179016',
+    title: 'Mitigating Obfuscation Attacks on Software Plagiarism Detectors via Subsequence Merging',
+    authors: ['Timur Sağlam', 'Nils Niehues', 'Sebastian Hahner', 'Larissa Schmid'],
+    venue:
+      'IEEE 37th Conference on Software Engineering Education and Training (CSEET ’25)',
+    year: 2025,
+    doi: '10.5445/IR/1000179016'
+  },
+  {
     url: 'https://doi.org/10.1145/3639478.3643074',
     title: 'Obfuscation-Resilient Software Plagiarism Detection with JPlag',
     authors: ['Timur Sağlam', 'Sebastian Hahner', 'Larissa Schmid', 'Erik Burger'],
