@@ -10,7 +10,7 @@
     </main>
     <footer class="shadow border-t border-gray-100 py-2 relative bottom-0">
       <p class="ml-2">
-        &copy; 2024 JPlag
+        &copy; 2025 JPlag
       </p>
     </footer>
   </div>
