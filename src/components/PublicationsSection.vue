@@ -36,15 +36,6 @@ const publicationLinks: PublicationsLink[] = [
     doi: '10.5445/IR/1000179016'
   },
   {
-    url: 'https://doi.org/10.1145/3639478.3643074',
-    title: 'Obfuscation-Resilient Software Plagiarism Detection with JPlag',
-    authors: ['Timur Sağlam', 'Sebastian Hahner', 'Larissa Schmid', 'Erik Burger'],
-    venue:
-      'IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-C)',
-    year: 2024,
-    doi: '10.1145/3639478.3643074'
-  },
-  {
     url: 'https://doi.org/10.1145/3597503.3639192',
     title: 'Detecting Automatic Software Plagiarism via Token Sequence Normalization',
     authors: ['Timur Sağlam', 'Moritz Brödel', 'Larissa Schmid', 'Sebastian Hahner'],
@@ -60,6 +51,15 @@ const publicationLinks: PublicationsLink[] = [
       'IEEE/ACM 46th International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET)',
     year: 2024,
     doi: '10.1145/3639474.3640084'
+  },
+  {
+    url: 'https://doi.org/10.1145/3639478.3643074',
+    title: 'Obfuscation-Resilient Software Plagiarism Detection with JPlag',
+    authors: ['Timur Sağlam', 'Sebastian Hahner', 'Larissa Schmid', 'Erik Burger'],
+    venue:
+      'IEEE/ACM 46th International Conference on Software Engineering: Companion Proceedings (ICSE-C)',
+    year: 2024,
+    doi: '10.1145/3639478.3643074'
   },
   {
     url: 'https://doi.org/10.1109/MODELS-C59198.2023.00032',
