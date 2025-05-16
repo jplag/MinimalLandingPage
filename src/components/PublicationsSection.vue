@@ -18,13 +18,13 @@ import PublicationLinkComponent from './PublicationLinkComponent.vue'
 
 const publicationLinks: PublicationsLink[] = [
   {
-    url: 'https://doi.org/10.5445/IR/1000179018',
+    url: 'https://doi.org/10.5445/IR/1000179018/v2',
     title: 'Mitigating Automated Obfuscation Attacks on Software Plagiarism Detection Systems',
     authors: ['Timur Sağlam'],
     venue:
       'PhD dissertation, Karlsruhe Institute of Technology (KIT)',
     year: 2025,
-    doi: '10.5445/IR/1000179018'
+    doi: '10.5445/IR/1000179018/v2'
   },
   {
     url: 'https://doi.org/10.5445/IR/1000179016',
