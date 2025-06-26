@@ -18,6 +18,15 @@ import PublicationLinkComponent from './PublicationLinkComponent.vue'
 
 const publicationLinks: PublicationsLink[] = [
   {
+    url: 'https://doi.org/10.1145/3723010.3723019',
+    title: 'Towards Robust Plagiarism Detection in Programming Education: Introducing Tolerant Token Matching Techniques to Counter Novel Obfuscation Methods',
+    authors: ['Robin Maisch', 'Nathan Hagel', 'Alexander Bartel'],
+    venue:
+      'ACM 6th European Conference on Software Engineering Education (ECSEE)',
+    year: 2025,
+    doi: '10.1145/3723010.3723019'
+  },
+  {
     url: 'https://doi.org/10.5445/IR/1000179018/v2',
     title: 'Mitigating Automated Obfuscation Attacks on Software Plagiarism Detection Systems',
     authors: ['Timur Sağlam'],
