@@ -13,12 +13,13 @@ import type { ReferenceLink } from '@/model/referenceLink'
 import ReferenceLinkComponent from './ReferenceLinkComponent.vue'
 import hifisLog from '@/assets/HIFIS_Logo_short_RGB_cropped.png'
 import githubLogo from '@/assets/github.png'
+import jplagLogo from '@/assets/JPlag.png'
 
 const referenceLinks: ReferenceLink[] = [
   {
     url: 'https://jplag.github.io/Demo/',
     title: 'JPlag Demo',
-    image: 'https://raw.githubusercontent.com/jplag/JPlag/develop/report-viewer/src/assets/jplag-dark-transparent.png',
+    image: jplagLogo,
     alt: 'JPlag logo for link to Demo page'
   },
   {
