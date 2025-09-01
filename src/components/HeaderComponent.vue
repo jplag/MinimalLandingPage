@@ -3,7 +3,7 @@
   >
     <img
       class="max-h-full ml-2 py-2 md:mx-auto"
-      src="https://raw.githubusercontent.com/jplag/JPlag/develop/report-viewer/src/assets/jplag-dark-transparent.png"
+      src="https://raw.githubusercontent.com/jplag/MinimalLandingPage/main/src/assets/JPlag.png"
       alt="Header image"
     />
   </header>
