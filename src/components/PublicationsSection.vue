@@ -36,13 +36,13 @@ const publicationLinks: PublicationsLink[] = [
     doi: '10.5445/IR/1000179018/v2'
   },
   {
-    url: 'https://doi.org/10.5445/IR/1000179016',
+    url: 'https://doi.org/10.1109/CSEET66350.2025.00028',
     title: 'Mitigating Obfuscation Attacks on Software Plagiarism Detectors via Subsequence Merging',
     authors: ['Timur Sağlam', 'Nils Niehues', 'Sebastian Hahner', 'Larissa Schmid'],
     venue:
       'IEEE 37th Conference on Software Engineering Education and Training (CSEET)',
     year: 2025,
-    doi: '10.5445/IR/1000179016'
+    doi: '10.1109/CSEET66350.2025.00028'
   },
   {
     url: 'https://doi.org/10.1145/3597503.3639192',
