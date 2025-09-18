@@ -30,7 +30,7 @@ const referenceLinks: ReferenceLink[] = [
   },
   {
     url: 'https://www.github.com/jplag/JPlag',
-    title: 'Github',
+    title: 'GitHub Repo',
     image: githubLogo,
     alt: 'Github logo for link to JPlag repository'
   }
