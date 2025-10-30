@@ -18,6 +18,15 @@ import PublicationLinkComponent from './PublicationLinkComponent.vue'
 
 const publicationLinks: PublicationsLink[] = [
   {
+    url: 'https://arxiv.org/abs/2510.25057',
+    title: 'Same Same But Different: Preventing Refactoring Attacks on Software Plagiarism Detection',
+    authors: ['Robin Maisch', 'Larissa Schmid', 'Timur Sağlam', 'Nils Niehues'],
+    venue:
+      'IEEE/ACM 48th International Conference on Software Engineering (ICSE)',
+    year: 2025,
+    doi: '10.48550/arXiv.2510.25057'
+  },
+  {
     url: 'https://doi.org/10.1145/3723010.3723019',
     title: 'Towards Robust Plagiarism Detection in Programming Education: Introducing Tolerant Token Matching Techniques to Counter Novel Obfuscation Methods',
     authors: ['Robin Maisch', 'Nathan Hagel', 'Alexander Bartel'],
