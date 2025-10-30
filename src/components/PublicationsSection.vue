@@ -23,7 +23,7 @@ const publicationLinks: PublicationsLink[] = [
     authors: ['Robin Maisch', 'Larissa Schmid', 'Timur Sağlam', 'Nils Niehues'],
     venue:
       'IEEE/ACM 48th International Conference on Software Engineering (ICSE)',
-    year: 2025,
+    year: 2026,
     doi: '10.48550/arXiv.2510.25057'
   },
   {
