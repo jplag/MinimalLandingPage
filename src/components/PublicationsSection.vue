@@ -18,6 +18,14 @@ import PublicationLinkComponent from './PublicationLinkComponent.vue'
 
 const publicationLinks: PublicationsLink[] = [
   {
+    url: 'https://publikationen.bibliothek.kit.edu/1000191756',
+    title: 'Criminal Minds: How First-Year CS Students Plagiarize Code',
+    authors: ['Robin Maisch', 'Larissa Schmid', 'Richard Glassey', 'Dominik Fuchß', 'Nils Niehues', 'Haoyu Liu', 'Anne Koziolek'],
+    venue: '34th ACM Joint European Software Engineering Conference and Symposium of the Foundations of Software Engineering: Software Engineering Education (FSE-SEET)',
+    year: 2026,
+    doi: '10.5445/IR/1000191756'
+  },
+  {
     url: 'https://arxiv.org/abs/2510.25057',
     title: 'Same Same But Different: Preventing Refactoring Attacks on Software Plagiarism Detection',
     authors: ['Robin Maisch', 'Larissa Schmid', 'Timur Sağlam', 'Nils Niehues'],
